@@ -108,24 +108,24 @@
 
 
 
-  <meta name="description" content="这里是描述">
-<meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://yoursite.com/categories/index.html">
+  <meta name="description" content="关于在部署blog中碰到的一些问题记录">
+<meta property="og:type" content="article">
+<meta property="og:title" content="域名">
+<meta property="og:url" content="http://yoursite.com/2018/09/22/域名/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="这里是描述">
+<meta property="og:description" content="关于在部署blog中碰到的一些问题记录">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-18T00:37:02.499Z">
+<meta property="og:updated_time" content="2018-09-22T04:01:53.308Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
-<meta name="twitter:description" content="这里是描述">
+<meta name="twitter:title" content="域名">
+<meta name="twitter:description" content="关于在部署blog中碰到的一些问题记录">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/09/22/域名/"/>
 
 
 
@@ -135,7 +135,7 @@
   };
 </script>
 
-  <title>categories | Hexo</title>
+  <title>域名 | Hexo</title>
   
 
 
@@ -243,7 +243,7 @@
         
         
           
-          <li class="menu-item menu-item-categories menu-item-active">
+          <li class="menu-item menu-item-categories">
     <a href="/categories/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-th"></i> <br />Categories</a>
   </li>
@@ -263,28 +263,6 @@
 
   
     
-
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
 
   
 
@@ -312,73 +290,173 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/22/域名/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Li JianGuo">
+      <meta itemprop="description" content="这里是描述">
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">categories</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="category-all-page">
-            <div class="category-all-title">
-                
-                
-                  
-                    
-                  
-                
-                  
-                    
-                  
-                
-                  
-                    
-                  
-                
-                  
-                    
-                  
-                
-                4 categories in total
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/cat1/">cat1</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/cat1/cat1-1/">cat1.1</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/cat2/">cat2</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/cat3/">cat3</a><span class="category-list-count">1</span></li></ul>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">域名
+              
+            
+          </h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-09-22 12:01:53" itemprop="dateCreated datePublished" datetime="2018-09-22T12:01:53+08:00">2018-09-22</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h3 id="关于在部署blog中碰到的一些问题记录"><a href="#关于在部署blog中碰到的一些问题记录" class="headerlink" title="关于在部署blog中碰到的一些问题记录"></a>关于在部署blog中碰到的一些问题记录</h3><a id="more"></a>
+<h5 id="1-关于github中的repositories中的设置问题"><a href="#1-关于github中的repositories中的设置问题" class="headerlink" title="1. 关于github中的repositories中的设置问题"></a>1. 关于github中的repositories中的设置问题</h5><p>   我们的最终目的是在repository中始终存在CNAME file。为此两种做法：</p>
+<ul>
+<li><p>第一种就是在本地的blog文件夹下的source文件夹里创建这个page，并且键入所需内容 <strong>name.githunb.io</strong>  这样每次上传到repository时候都会把这个file一起上传。</p>
+<p>之所以不直接在github的repository中建立是因为，我们每次上传时候都会直接把这个file覆盖掉。</p>
+</li>
+<li><p>第二种方法就是直接在repository中的<strong>settig</strong>中把<strong>custom domain</strong>中直接填入我们申请的domain，这样每次上传后github都会自动帮助我们生成一个CNAME file。</p>
+</li>
+</ul>
+<h5 id="2-关于domain的解析问题"><a href="#2-关于domain的解析问题" class="headerlink" title="2. 关于domain的解析问题"></a>2. 关于domain的解析问题</h5><ul>
+<li><p>直接使用Dnspod解析平台进行解析</p>
+</li>
+<li><p>解析申请的domain, 并添加数据如下</p>
+<p>| 主机记录 | 记录类型 | 线路类型 | 记录值         |<br>| ——– | ——– | ——– | ————– |<br>| @        | A        | 默认     | 192.30.252.153 |<br>| @        | A        | 默认     | 192.30.252.154 |<br>| www      | CNAME    | 默认     | name.github.io |</p>
+<p><a href="https://help.github.com/articles/setting-up-an-apex-domain/" target="_blank" rel="noopener">关于两条IP地址的原因</a></p>
+</li>
+</ul>
+
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/09/16/basic control/" rel="next" title="基础操作">
+                <i class="fa fa-chevron-left"></i> 基础操作
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -399,8 +477,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -481,6 +568,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#关于在部署blog中碰到的一些问题记录"><span class="nav-number">1.</span> <span class="nav-text">关于在部署blog中碰到的一些问题记录</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-关于github中的repositories中的设置问题"><span class="nav-number">1.0.1.</span> <span class="nav-text">1. 关于github中的repositories中的设置问题</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-关于domain的解析问题"><span class="nav-number">1.0.2.</span> <span class="nav-text">2. 关于domain的解析问题</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
